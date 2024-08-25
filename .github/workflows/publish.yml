@@ -14,6 +14,7 @@ jobs:
         with:
           node-version-file: ".nvmrc"
           registry-url: "https://registry.npmjs.org"
+      - run: npm ci --only=production --ignore-scripts
       - run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
