@@ -1,0 +1,53 @@
+{
+  "name": "@moonjellydigital/prettier-config",
+  "description": "Prettier shareable config",
+  "version": "1.0.0",
+  "main": "index.json",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "author": "Camille Spain <camille@camillespain.com>",
+  "license": "MIT",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "homepage": "https://github.com/moonjellydigital/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonjellydigital/prettier-config.git"
+  },
+  "files": [
+    "./index.json"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "prepare": "husky",
+    "tsc:ci": "bunx tsc",
+    "fmt:ci": "bunx prettier --check .",
+    "lint:ci": "bunx eslint ."
+  },
+  "lint-staged": {
+    "*.json": "prettier --write",
+    "*.{ts,js}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/bun": "^1.1.7",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/eslint__js": "^8.42.3",
+    "@types/prettier": "^3.0.0",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.9",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.2.0"
+  }
+}
