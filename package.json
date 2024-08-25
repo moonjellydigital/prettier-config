@@ -29,7 +29,7 @@
     "lint:ci": "bunx eslint ."
   },
   "lint-staged": {
-    "*.json": "prettier --write",
+    "*.{json,yml,yaml,md}": "prettier --write",
     "*.{ts,js}": [
       "prettier --write",
       "eslint --fix"

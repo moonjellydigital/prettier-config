@@ -28,17 +28,17 @@ Add to your `package.json`:
 
 ```json
 {
-  "prettier": "@moonjellydigital/prettier-config"
+    "prettier": "@moonjellydigital/prettier-config"
 }
 ```
 
 Import in a `.prettierrc.js` file if you want to override settings:
 
 ```javascript
-import config from '@moonjellydigital/prettier-config';
+import config from "@moonjellydigital/prettier-config";
 
 export default {
-  ...config,
-  semi: false,
+    ...config,
+    semi: false,
 };
 ```
