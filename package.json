@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "test": "bun test",
-    "prepare": ".husky/install.mjs",
+    "prepare": "husky || true",
     "tsc:ci": "bunx tsc",
     "fmt:ci": "bunx prettier --check .",
     "lint:ci": "bunx eslint ."
