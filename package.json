@@ -37,18 +37,17 @@
   },
   "type": "module",
   "devDependencies": {
-    "@eslint/js": "^9.20.0",
-    "@types/bun": "^1.2.2",
+    "@eslint/js": "^9.21.0",
+    "@types/bun": "^1.2.4",
     "@types/eslint-config-prettier": "^6.11.3",
-    "@types/eslint__js": "^8.42.3",
     "@types/prettier": "^3.0.0",
-    "eslint": "^9.20.0",
-    "eslint-config-prettier": "^10.0.1",
-    "globals": "^15.14.0",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "globals": "^16.0.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
-    "prettier": "^3.4.2",
+    "prettier": "^3.5.2",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.23.0"
+    "typescript-eslint": "^8.25.0"
   }
 }
