@@ -1,7 +1,7 @@
-import { expect, test } from "bun:test";
-import config from "./index.json";
+import { expect, test } from 'bun:test';
+import config from './index.json';
 
-test("config should be valid JSON", () => {
+test('config should be valid JSON', () => {
   let valid = false;
   try {
     JSON.stringify(config);
