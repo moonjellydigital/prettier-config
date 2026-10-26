@@ -17,5 +17,7 @@
   "endOfLine": "lf",
   "embeddedLanguageFormatting": "auto",
   "singleAttributePerLine": false,
-  "checkIgnorePragma": true
+  "checkIgnorePragma": true,
+  "objectWrap": "collapse",
+  "experimentalOperatorPosition": "start"
 }
