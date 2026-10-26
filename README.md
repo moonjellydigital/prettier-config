@@ -6,19 +6,25 @@ A shareable [Prettier](https://prettier.io) config.
 
 npm:
 
-```
+```shell
 npm install --save-dev @moonjellydigital/prettier-config
+```
+
+pnpm:
+
+```shell
+pnpm add -D @moonjellydigital/prettier-config
 ```
 
 yarn:
 
-```
+```shell
 yarn add -D @moonjellydigital/prettier-config
 ```
 
 bun:
 
-```
+```shell
 bun add -D @moonjellydigital/prettier-config
 ```
 
@@ -33,7 +39,7 @@ Add to your `package.json`:
 Import in a `.prettierrc.js` file if you want to override settings:
 
 ```javascript
-import config from '@moonjellydigital/prettier-config';
+import config from '@moonjellydigital/prettier-config' with { type: 'json' };
 
 export default { ...config, semi: false };
 ```

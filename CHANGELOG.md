@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.0.0] - 2026-10-26
+
+Moving from 1.x versions to version 2.0.0 may cause formatting changes to objects and lines of code that contain binary operators.
+
+### Added
+
+- Enables `objectWrap` option set to `collapse`.
+- Enables `experimentalOperatorPosition` option set to `start`.
+
 ## [1.1.0] - 2025-06-25
 
 ### Added
